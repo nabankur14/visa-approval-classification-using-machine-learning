@@ -1,4 +1,4 @@
-# 🌐 Visa Approval Classification using Machine Learning
+# Visa Approval Classification using Machine Learning
 
 ![Python](https://img.shields.io/badge/Python-3.10-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen?style=for-the-badge)
