@@ -8,7 +8,22 @@
 
 ---
 
-## 📌 Project Overview
+## Table of Contents
+- [Project Overview](#project-overview)
+- [Business Problem](#business-problem)
+- [Dataset](#dataset)
+- [Methodology](#methodology)
+- [Key Results](#key-results)
+- [Business Impact](#business-impact)
+- [Skills](#skills)
+- [Key Learnings](#key-learnings)
+- [Future Improvements](#future-improvements)
+- [Repository Structure](#repository-structure)
+- [Author](#author)
+
+---
+
+## Project Overview
 
 The U.S. visa application process has grown increasingly complex, with the Office of Foreign Labor Certification (OFLC) processing nearly **776,000 employer applications** in FY 2016 alone — a 9% year-over-year increase. Manually reviewing every case is no longer scalable.
 
@@ -18,7 +33,7 @@ This project develops a **binary classification machine learning solution** to p
 
 ---
 
-## 💼 Business Problem
+## Business Problem
 
 ### Real-World Context
 
@@ -38,7 +53,7 @@ A well-performing model can flag high-probability approvals early, enabling OFLC
 
 ---
 
-## 📂 Dataset
+## Dataset
 
 | Attribute | Details |
 |---|---|
@@ -64,7 +79,7 @@ A well-performing model can flag high-probability approvals early, enabling OFLC
 
 ---
 
-## 🔬 Methodology
+## Methodology
 
 ### 1. Data Understanding & Cleaning
 
@@ -132,7 +147,7 @@ Analysis of feature importances from the final Gradient Boosting model revealed 
 
 ---
 
-## 📊 Key Results
+## Key Results
 
 | Model | Dataset | Accuracy | Recall | Precision | F1 |
 |---|---|---|---|---|---|
@@ -150,7 +165,7 @@ Analysis of feature importances from the final Gradient Boosting model revealed 
 
 ---
 
-## 💡 Business Impact
+## Business Impact
 
 **1. Automated Pre-Screening at Scale:** Deploying the Gradient Boosting model as a pre-screening layer can significantly reduce the volume of cases requiring manual review, allowing OFLC officers to focus on genuinely borderline applications rather than processing the entire queue.
 
@@ -164,31 +179,52 @@ Analysis of feature importances from the final Gradient Boosting model revealed 
 
 ---
 
-## 🛠️ Skills
+## Skills
 
 ### Technical Skills
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
-![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![XGBoost](https://img.shields.io/badge/XGBoost-AA4A44?style=for-the-badge&logo=xgboost&logoColor=white)
-![Seaborn](https://img.shields.io/badge/Seaborn-77AC1D?style=for-the-badge&logo=seaborn&logoColor=white)
+![Scikit-Learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-000000?style=for-the-badge&logo=matplotlib&logoColor=white)
+![Seaborn](https://img.shields.io/badge/Seaborn-77AC1D?style=for-the-badge&logo=seaborn&logoColor=white)
 ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
-![Exploratory Data Analysis](https://img.shields.io/badge/Data_Analysis-FFA500?style=for-the-badge&logo=google-analytics&logoColor=white)
 ![Google Colab](https://img.shields.io/badge/Google_Colab-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white)
+<br>
+![Machine Learning](https://img.shields.io/badge/Machine_Learning-00599C?style=for-the-badge)
+![Ensemble Methods](https://img.shields.io/badge/Ensemble_Methods-00599C?style=for-the-badge)
+![Classification](https://img.shields.io/badge/Classification-00599C?style=for-the-badge)
+![Gradient Boosting](https://img.shields.io/badge/Gradient_Boosting-00599C?style=for-the-badge)
+![XGBoost](https://img.shields.io/badge/XGBoost-AA4A44?style=for-the-badge&logo=xgboost&logoColor=white)
+![Random Forest](https://img.shields.io/badge/Random_Forest-00599C?style=for-the-badge)
+![AdaBoost](https://img.shields.io/badge/AdaBoost-00599C?style=for-the-badge)
+<br>
+![Hyperparameter Tuning](https://img.shields.io/badge/Hyperparameter_Tuning-8A2BE2?style=for-the-badge)
+![RandomizedSearchCV](https://img.shields.io/badge/RandomizedSearchCV-8A2BE2?style=for-the-badge)
+![SMOTE](https://img.shields.io/badge/SMOTE-8A2BE2?style=for-the-badge)
+![Class Imbalance Handling](https://img.shields.io/badge/Class_Imbalance-8A2BE2?style=for-the-badge)
+![Recall Optimization](https://img.shields.io/badge/Recall_Optimization-8A2BE2?style=for-the-badge)
+![Feature Importance](https://img.shields.io/badge/Feature_Importance-8A2BE2?style=for-the-badge)
+<br>
+![Exploratory Data Analysis](https://img.shields.io/badge/Exploratory_Data_Analysis-FFA500?style=for-the-badge)
+![Bivariate Analysis](https://img.shields.io/badge/Bivariate_Analysis-FFA500?style=for-the-badge)
+![Data Preprocessing](https://img.shields.io/badge/Data_Preprocessing-FFA500?style=for-the-badge)
+![One-Hot Encoding](https://img.shields.io/badge/One--Hot_Encoding-FFA500?style=for-the-badge)
+![Business Insight Generation](https://img.shields.io/badge/Business_Insight-FFA500?style=for-the-badge)
 
 ### Soft Skills
 
 ![Analytical Thinking](https://img.shields.io/badge/Analytical_Thinking-4B0082?style=for-the-badge&logo=mindmap&logoColor=white)
-![Communication](https://img.shields.io/badge/Communication-25D366?style=for-the-badge&logo=google-messages&logoColor=white)
 ![Problem Solving](https://img.shields.io/badge/Problem_Solving-FF4500?style=for-the-badge&logo=brainly&logoColor=white)
-![Attention to Detail](https://img.shields.io/badge/Attention_to_Detail-00CED1?style=for-the-badge&logo=google-search-console&logoColor=white)
+![Critical Thinking](https://img.shields.io/badge/Critical_Thinking-00CED1?style=for-the-badge&logo=google-search-console&logoColor=white)
+![Communication](https://img.shields.io/badge/Communication-25D366?style=for-the-badge&logo=google-messages&logoColor=white)
+![Data Storytelling](https://img.shields.io/badge/Data_Storytelling-25D366?style=for-the-badge)
+![Business Acumen](https://img.shields.io/badge/Business_Acumen-4B0082?style=for-the-badge)
 
 ---
 
-## 🧠 Key Learnings
+## Key Learnings
 
 - **Class Imbalance is not just a modeling problem — it is a business problem.** Understanding what a false negative means in the real world (a wrongly denied applicant) fundamentally shapes metric choices and resampling strategy decisions.
 - **Ensemble methods offer complementary strengths.** Random Forest generalizes well with raw data but may overfit; Gradient Boosting with undersampling provides better balance between precision and recall in production settings.
@@ -198,7 +234,7 @@ Analysis of feature importances from the final Gradient Boosting model revealed 
 
 ---
 
-## 🚀 Future Improvements
+## Future Improvements
 
 1. **Calibrated Probability Scoring:** Move beyond binary classification to output calibrated probability scores for each application, enabling OFLC to set dynamic thresholds for prioritization rather than hard pass/fail decisions.
 
@@ -212,7 +248,24 @@ Analysis of feature importances from the final Gradient Boosting model revealed 
 
 ---
 
-## 👨‍💻 Author
+## Repository Structure
+
+```
+visa-approval-classification-using-machine-learning/
+│
+├── data/
+│   └── EasyVisa.csv                                  # Original dataset
+│
+├── notebook/
+│   └── Visa_Approval_Classification_using_Machine_Learning.ipynb # Analysis notebook
+│
+├── requirements.txt                                  # Project dependencies
+├── README.md                                         # Project documentation
+├── LICENSE                                           # License file
+└── .gitignore                                        # Git ignore file
+```
+
+## Author
 
 **Nabankur Ray**
 
