@@ -57,7 +57,7 @@ A well-performing model can flag high-probability approvals early, enabling OFLC
 
 | Attribute | Details |
 |---|---|
-| **Source** | Office of Foreign Labor Certification (OFLC) — EasyVisa ML Project |
+| **Source** | EasyVisa - Provided as part of PGP-DSBA project |
 | **Size** | 25,480 rows × 12 columns |
 | **Target Variable** | `case_status` (Certified = 1, Denied = 0) |
 | **Class Distribution** | Certified: 17,018 (66.8%) / Denied: 8,462 (33.2%) |
